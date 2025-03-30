@@ -34,7 +34,7 @@ The EXLA Android SDK is integrated via JitPack. See the `settings.gradle.kts` an
 ```kotlin
 // In app/build.gradle.kts
 dependencies {
-    implementation("com.github.exla-ai:exla-android-sdk:v1.0.0-alpha01")
+	implementation("com.github.exla-ai:exla-android-sdk:407fc21173")
 }
 ```
 
