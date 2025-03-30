@@ -44,26 +44,3 @@ dependencies {
 2. **Model Download**: Demonstrates downloading and loading AI models
 3. **Text Generation**: Shows how to generate text responses using the loaded model
 
-## Preparing for Public Release
-
-Before making this repository public, ensure you:
-
-1. Remove any large files such as:
-   - Java heap dump files (*.hprof)
-   - The dummy model file in app/src/main/assets/dummy_model.gguf (or replace it with a small placeholder)
-   
-2. Remove any sensitive information:
-   - API keys
-   - Credentials
-   - Private configuration details
-
-3. Verify the `.gitignore` file properly excludes build artifacts and large binary files
-
-## License
-
-[Add your license information here]
-
-## Support
-
-For questions or issues regarding this example app, please create an issue in this repository.
-For SDK-specific questions, refer to the [EXLA AI documentation](https://docs.exla.ai). 
